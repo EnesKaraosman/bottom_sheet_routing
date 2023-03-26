@@ -1,11 +1,11 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:sheet_route/router.dart';
+import 'package:sheet_route/router/router.dart';
 import 'package:sheet_route/sheet_flow/sheet_root.dart';
 import 'package:sheet_route/sheet_flow/sheet_second.dart';
 
 class InitialScreen extends StatelessWidget {
-  const InitialScreen({Key? key}) : super(key: key);
+  const InitialScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -26,9 +26,7 @@ class InitialScreen extends StatelessWidget {
 }
 
 class _NavigatorBottomSheet extends StatelessWidget {
-  const _NavigatorBottomSheet({
-    super.key,
-  });
+  const _NavigatorBottomSheet();
 
   @override
   Widget build(BuildContext context) {
@@ -72,9 +70,7 @@ class _NavigatorBottomSheet extends StatelessWidget {
 }
 
 class _AutoRouteBottomSheet extends StatelessWidget {
-  const _AutoRouteBottomSheet({
-    super.key,
-  });
+  const _AutoRouteBottomSheet();
 
   @override
   Widget build(BuildContext context) {

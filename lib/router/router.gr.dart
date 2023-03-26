@@ -14,10 +14,10 @@
 import 'package:auto_route/auto_route.dart' as _i5;
 import 'package:flutter/material.dart' as _i6;
 
-import 'initial.dart' as _i1;
+import '../initial.dart' as _i1;
+import '../sheet_flow/sheet_root.dart' as _i3;
+import '../sheet_flow/sheet_second.dart' as _i4;
 import 'router.dart' as _i2;
-import 'sheet_flow/sheet_root.dart' as _i3;
-import 'sheet_flow/sheet_second.dart' as _i4;
 
 class AppRouter extends _i5.RootStackRouter {
   AppRouter([_i6.GlobalKey<_i6.NavigatorState>? navigatorKey])
